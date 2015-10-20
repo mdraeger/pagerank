@@ -1,0 +1,15 @@
+[package]
+name = "pagerank"
+version = "0.1.0"
+authors = ["Marco Draeger <draeger.marco@gmail.com>"]
+
+[lib]
+name = "utillib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "pagerank"
+path = "src/main.rs"
+
+[dependencies]
+time = "*"
